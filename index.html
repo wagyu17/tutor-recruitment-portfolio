@@ -18,10 +18,10 @@
     </a>
     <nav class="nav" aria-label="主要ナビゲーション">
       <a href="#features">特徴</a>
-      <a href="#teacher">先生を探す</a>
+      <a href="#recruit">講師募集</a>
       <a href="#flow">ご利用の流れ</a>
       <a href="#faq">よくある質問</a>
-      <a class="nav-cta" href="#entry">無料で会員登録する</a>
+      <a class="nav-cta" href="#entry">先生として応募する</a>
     </nav>
   </header>
 
@@ -30,8 +30,11 @@
       <div class="hero-copy">
         <p class="note">大学生の先生だから<br>年齢が近くて、話しやすい！</p>
         <h1>
-          <span class="headline-line">大学生の家庭教師で</span>
-          <span class="headline-line"><em>わかる！できる！</em>が増える</span>
+          <span class="headline-line headline-desktop">大学生の家庭教師で</span>
+          <span class="headline-line headline-mobile">大学生の</span>
+          <span class="headline-line headline-mobile">家庭教師で</span>
+          <span class="headline-line"><em>わかる！できる！</em></span>
+          <span class="headline-line">が増える</span>
         </h1>
         <p class="lead">一人ひとりに寄り添う個別指導で、勉強がもっと楽しくなる。</p>
         <div class="benefit-cards" aria-label="サービスの特徴">
@@ -53,7 +56,7 @@
         </div>
         <a class="main-cta" href="#entry">
           <small>最短1分で完了！</small>
-          無料で会員登録する
+          先生として応募する
         </a>
       </div>
       <div class="hero-visual">
@@ -110,6 +113,27 @@
           <li>大学生に気軽に質問したい</li>
           <li>信頼できる先生に教えてほしい</li>
         </ul>
+      </div>
+    </section>
+
+    <section id="recruit" class="section recruit-section">
+      <div class="section-title">
+        <h2>大学生講師を募集しています</h2>
+      </div>
+      <div class="recruit-grid">
+        <div class="recruit-copy">
+          <p class="section-lead">得意科目や受験経験を活かして、中高生の学習を支える大学生家庭教師を募集しています。授業や研究と両立しやすいよう、週1回から柔軟に働ける設計です。</p>
+          <ul class="job-points">
+            <li><strong>時給</strong><span>1,800円〜2,800円</span></li>
+            <li><strong>勤務</strong><span>週1回・1コマ90分から</span></li>
+            <li><strong>形式</strong><span>オンライン / 対面を選択可</span></li>
+            <li><strong>歓迎</strong><span>塾講師・家庭教師・TA経験者</span></li>
+          </ul>
+        </div>
+        <div class="design-note">
+          <strong>設計意図</strong>
+          <p>保護者向けの安心感を保ちながら、講師応募者にも条件が一目で伝わる導線を追加。求人サイト案件で求められる「応募前の不安解消」と「CV直前の条件整理」を表現しています。</p>
+        </div>
       </div>
     </section>
 
@@ -194,18 +218,45 @@
       </div>
     </section>
 
-    <section id="entry" class="bottom-cta">
-      <div class="bottom-image">
-        <img src="assets/tutor-recruit-hero.png" alt="">
+    <section id="entry" class="entry-section">
+      <div class="entry-copy">
+        <p class="form-label">Teacher Entry</p>
+        <h2>あなたの得意科目で、誰かの学びを支える。</h2>
+        <p>実際の送信機能はないポートフォリオ用フォームです。採用LPで必要な入力項目と、応募完了まで迷わせない導線設計を表現しています。</p>
+        <div class="free-badge">先生登録<br>無料</div>
       </div>
-      <div class="bottom-copy">
-        <h2>あなたにぴったりの大学生の先生が見つかる！</h2>
-        <a class="main-cta" href="#top">
-          <small>最短1分で完了！</small>
-          無料で会員登録する
-        </a>
-      </div>
-      <div class="free-badge">利用は<br>完全無料！</div>
+      <form class="entry-form" aria-label="講師応募フォーム">
+        <label>
+          お名前
+          <input type="text" placeholder="山田 太郎">
+        </label>
+        <label>
+          大学名・学部
+          <input type="text" placeholder="東京理科大学 理工学部">
+        </label>
+        <label>
+          得意科目
+          <select>
+            <option>数学・理科</option>
+            <option>英語</option>
+            <option>国語・社会</option>
+            <option>複数科目に対応可能</option>
+          </select>
+        </label>
+        <label>
+          希望勤務形式
+          <select>
+            <option>オンライン中心</option>
+            <option>対面中心</option>
+            <option>どちらも対応可能</option>
+          </select>
+        </label>
+        <label class="full">
+          自己PR
+          <textarea rows="4" placeholder="指導経験、得意な説明スタイル、勤務可能時間など"></textarea>
+        </label>
+        <button type="button" class="form-submit">応募内容を確認する</button>
+      </form>
     </section>
   </main>
 
@@ -223,7 +274,7 @@
     <div>
       <h3>メニュー</h3>
       <a href="#features">特徴</a>
-      <a href="#teacher">先生を探す</a>
+      <a href="#recruit">講師募集</a>
       <a href="#flow">ご利用の流れ</a>
       <a href="#faq">よくある質問</a>
     </div>
